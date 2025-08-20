@@ -26,7 +26,7 @@ app.post("/send", async (req, res) => {
         // Email options
         let mailOptions = {
             from: email,
-            to: "devasothnikitha85@gmail.com",  // where you want to receive
+            to: "devasothnikitha06@gmail.com",  // where you want to receive
             subject: `New Contact Form Message from ${name}`,
             text: `You got a new message:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`
         };
@@ -43,3 +43,4 @@ app.post("/send", async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
+
